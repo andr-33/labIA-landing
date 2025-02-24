@@ -9,6 +9,7 @@ export default defineConfig({
   vite:{
       plugins: [tailwindcss()]
   },
-
+  base: '/labIA-landing/',
+  output: 'static',
   integrations: [react()]
 });
