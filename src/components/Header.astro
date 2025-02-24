@@ -1,0 +1,21 @@
+---
+const { subtitle } = Astro.props;
+---
+
+<header class="w-full max-w-5xl flex justify-between items-center py-4 px-6">
+  <div class="logo flex items-center">
+    <p class="text-xl font-bold">
+      <i class="fa fa-forumbee"></i> 
+      <a href="/">Lab<span class="text-aquamarine">IA</span></a>
+      {subtitle && (
+        <span>- {subtitle}</span>
+      )} 
+    </p>
+  </div>
+</header>
+
+<style>
+  .text-aquamarine {
+    color: aquamarine;
+  }
+</style>
