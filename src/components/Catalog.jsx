@@ -22,8 +22,8 @@ const Catalog = () => {
     };
 
     return(
-        <div className="container mx-auto min-h-screen flex flex-col items-center py-5 relative">
-            <div className="hero w-full px-5 flex flex-wrap justify-around">
+        <div className="container mx-auto h-full flex flex-col items-center py-5 relative">
+            <div className="w-full px-3 flex flex-wrap justify-around">
                 {toolsData.map((toolData, index)=>(
                     <CategoryCard 
                         key={index}

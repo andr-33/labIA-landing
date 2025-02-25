@@ -1,5 +1,4 @@
 const Sidebar = ({ category, description, tools, isOpen, handleOnClose }) => {
-  console.log(tools.length)
   return (
     <aside
       className={`sidebar fixed top-0 right-0 w-full max-w-sm h-full bg-gray-800 text-white transition-transform duration-300 ease-in-out p-5 shadow-lg overflow-y-auto 
