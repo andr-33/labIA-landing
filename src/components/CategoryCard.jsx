@@ -1,7 +1,7 @@
 const CategoryCard = ({category, description, handelCategory}) => {
     return(
         <div
-            className="bg-[#FFFFFF1A] rounded-lg p-6 m-1.5 shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-lg cursor-pointer w-full sm:w-[300px] "
+            className="bg-[#FFFFFF1A] rounded-lg p-6 m-1.5 shadow transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg cursor-pointer w-full sm:w-[300px] "
             onClick={handelCategory}
         >
             <h2>
